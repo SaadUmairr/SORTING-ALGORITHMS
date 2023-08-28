@@ -1,4 +1,17 @@
+# All files with specific extension to ignore
 *.exe
+*.txt
+
+#Specific CPP files to ignore
 tempCodeRunnerFile.cpp
 Practice.cpp
+TestCaseGenerator.cpp
+
+#Specific Python files to ignore
+
+#Specific Java files to ignore
+
+#Specific JavaScript files to ignore
+
+#Specific Folder to ignore
 /.vscode
