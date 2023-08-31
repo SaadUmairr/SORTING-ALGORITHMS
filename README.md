@@ -1,6 +1,6 @@
 # Comprehensive Sorting Algorithms Repository
 
-![Sorting Algorithms](Notes\RadixSortLSD.gif)
+![Sorting Algorithms](Notes/RadixSortLSD.gif)
 
 Welcome to the Comprehensive Sorting Algorithms Repository! This repository is a one-stop destination for everything related to sorting algorithms. Whether you're a beginner looking to learn the basics or an experienced programmer seeking advanced insights, this repository has got you covered. Here, you'll find code implementations, explanations, articles, and resources for sorting algorithms in C++, Java, Python, and JavaScript.
 
