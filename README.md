@@ -1,6 +1,6 @@
 # Comprehensive Sorting Algorithms Repository
 
-![Sorting Algorithms](Notes/RadixSortLSD.gif)
+![Sorting Algorithms](GIFs/24Sort.gif)
 
 Welcome to the Comprehensive Sorting Algorithms Repository! This repository is a one-stop destination for everything related to sorting algorithms. Whether you're a beginner looking to learn the basics or an experienced programmer seeking advanced insights, this repository has got you covered. Here, you'll find code implementations, explanations, articles, and resources for sorting algorithms in C++, Java, Python, and JavaScript.
 
@@ -32,6 +32,8 @@ Sorting algorithms are essential tools in a programmer's toolkit. They allow us 
 
 ### Bubble Sort [➡️](https://en.wikipedia.org/wiki/Bubble_sort)
 
+![Bubble Sort](GIFs/BubbleSort.gif)
+
 - [C++ Implementation](CPP/bubble_sort.cpp)
 - [Java Implementation](Java/BubbleSort.java)
 - [Python Implementation](Python/bubble_sort.py)
@@ -40,6 +42,8 @@ Sorting algorithms are essential tools in a programmer's toolkit. They allow us 
 - [Notes: Bubble Sort](Notes\BubbleSort.md)
  
 ### Selection Sort [➡️](https://en.wikipedia.org/wiki/Selection_sort)
+
+![Selection Sort](GIFs/SelectionSort.gif)
 
 - [C++ Implementation](CPP/selection_sort.cpp)
 - [Java Implementation](Java/SelectionSort.java)
@@ -50,6 +54,8 @@ Sorting algorithms are essential tools in a programmer's toolkit. They allow us 
 
 ### Insertion Sort [➡️](https://en.wikipedia.org/wiki/Insertion_sort)
 
+![Insertion Sort](GIFs/InsertionSort.gif)
+
 - [C++ Implementation](CPP/insertion_sort.cpp)
 - [Java Implementation](Java/InsertionSort.java)
 - [Python Implementation](Python/insertion_sort.py)
@@ -59,6 +65,8 @@ Sorting algorithms are essential tools in a programmer's toolkit. They allow us 
 
 ### Merge Sort [➡️](https://en.wikipedia.org/wiki/Merge_sort)
 
+![Merge Sort](GIFs/MergeSort.gif)
+
 - [C++ Implementation](CPP/merge_sort.cpp)
 - [Java Implementation](Java/MergeSort.java)
 - [Python Implementation](Python/merge_sort.py)
@@ -67,6 +75,8 @@ Sorting algorithms are essential tools in a programmer's toolkit. They allow us 
 - [Notes: Merge Sort](Notes\MergeSort.md)
 
 ### Quick Sort [➡️](https://en.wikipedia.org/wiki/Quicksort)
+
+![Quick Sort](GIFs/QuickSort.gif)
 
 - [C++ Implementation](CPP/quick_sort.cpp)
 - [Java Implementation](Java/QuickSort.java)
@@ -78,6 +88,8 @@ Sorting algorithms are essential tools in a programmer's toolkit. They allow us 
 
 ### Count Sort [➡️](https://en.wikipedia.org/wiki/Counting_sort)
 
+![Count Sort]()
+
 - [C++ Implementation](CPP/CountSort.cpp)
 - [Java Implementation](Java/CountSort.java)
 - [Python Implementation](Python/CountSort.py)
@@ -86,6 +98,8 @@ Sorting algorithms are essential tools in a programmer's toolkit. They allow us 
 - [Notes: Count Sort](Notes\CountSort.md)
 
 ### Heap Sort [➡️](https://en.wikipedia.org/wiki/Heapsort)
+
+![Heap Sort](GIFs/HeapSort.gif)
 
 - [C++ Implementation](CPP/HeapSort.cpp)
 - [Java Implementation](Java/HeapSort.java)
@@ -96,6 +110,8 @@ Sorting algorithms are essential tools in a programmer's toolkit. They allow us 
 
 ### Radix Sort [➡️](https://en.wikipedia.org/wiki/Radix_sort)
 
+![Radix Sort](GIFs/RadixSortLSD.gif)
+
 - [C++ Implementation](CPP/radix_sort.cpp)
 - [Java Implementation](Java/RadixSort.java)
 - [Python Implementation](Python/radix_sort.py)
@@ -105,6 +121,8 @@ Sorting algorithms are essential tools in a programmer's toolkit. They allow us 
 
 
 ### Shell Sort [➡️](https://en.wikipedia.org/wiki/Shell_sort)
+
+![Shell Sort](GIFs/ShellSort.gif)
 
 - [C++ Implementation](CPP/ShellSort.cpp)
 - [Java Implementation](Java/ShellSort.java)
