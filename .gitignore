@@ -23,3 +23,6 @@ RoughWork.js
 
 #Specific Folder to ignore
 /.vscode
+
+#Other specific files to ignore
+SORTING.md
