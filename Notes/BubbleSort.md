@@ -9,6 +9,11 @@ Bubble Sort is a simple sorting algorithm that repeatedly steps through the list
 3. Move to the next pair of elements and repeat step 2.
 4. Continue this process until no more swaps are needed, indicating that the list is sorted.
 
+C++ implementation of Bubble sort: [Bubble Sort](../CPP/BubbleSort.cpp).  
+Python implementation of Bubble sort: [Bubble Sort](../Python/BubbleSort.py).  
+Java implementation of Bubble sort: [Bubble Sort](../Java/BubbleSort.java).  
+Javascipt implementation of Bubble sort: [Bubble Sort](../Javascript/BubbleSort.js).  
+
 ## Complexity
 - Time Complexity:
   - Best Case: O(n) (when the list is already sorted)
