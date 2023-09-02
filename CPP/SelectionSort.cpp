@@ -6,8 +6,10 @@
 #define ll long long int
 using namespace std;
 
-void PrintVec(const vec& arr) {
-    for (const int& value : arr) {
+void PrintVec(const vec &arr)
+{
+    for (const int &value : arr)
+    {
         cout << value << '\t';
     }
     cout << endl;
@@ -31,15 +33,14 @@ void SelectionSort(vec &arr)
 int main()
 {
     system("cls");
-    // ios_base::sync_with_stdio(false);
-    // cin.tie(NULL);
-    // #ifndef ONLINE_JUDGE
-    // freopen("input.txt", "r", stdin);
-    // freopen("output.txt", "w", stdout);
-    // #endif
     int size, el;
     cout << "Enter size of the array: ";
     cin >> size;
+    if (size <= 0)
+    {
+        cout << "Size of list can not be negative" << endl;
+        return 1;
+    }
     vec arr;
     for (int i = 0; i < size; i++)
         cin >> el, arr.push_back(el);

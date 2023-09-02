@@ -1,6 +1,6 @@
 # Comprehensive Sorting Algorithms Repository
 
-![Sorting Algorithms](GIFs/24Sort.gif)
+![Sorting Algorithms](Assets/24Sort.gif)
 
 Welcome to the Comprehensive Sorting Algorithms Repository! This repository is a one-stop destination for everything related to sorting algorithms. Whether you're a beginner looking to learn the basics or an experienced programmer seeking advanced insights, this repository has got you covered. Here, you'll find code implementations, explanations, articles, and resources for sorting algorithms in C++, Java, Python, and JavaScript.
 
@@ -28,11 +28,17 @@ To get started, simply navigate to the language-specific directories (cpp, java,
 
 Sorting algorithms are essential tools in a programmer's toolkit. They allow us to arrange elements in a specific order, making data manipulation and retrieval more efficient. This repository aims to provide a comprehensive collection of sorting algorithms implemented in C++, Java, Python, and JavaScript, along with detailed explanations and resources to deepen your understanding.
 
+## Big-O Notation
+
+![Big-O Notation](Assets/TimeComplexities.png)
+
+**Big O notation** is a mathematical shorthand used in computer science to describe how an algorithm's **efficiency** or **resource usage** scales with input size. It simplifies the comparison of algorithms, aiding in efficient algorithm selection and system design for scalability. It is commonly used to analyze the **worst-case** scenario, providing a conservative estimate of algorithm performance.
+
 ## Sorting Algorithms
 
 ### Bubble Sort [➡️](https://en.wikipedia.org/wiki/Bubble_sort)
 
-![Bubble Sort](GIFs/BubbleSort.gif)
+![Bubble Sort](Assets/BubbleSort.gif)
 
 - [C++ Implementation](CPP/bubble_sort.cpp)
 - [Java Implementation](Java/BubbleSort.java)
@@ -43,7 +49,7 @@ Sorting algorithms are essential tools in a programmer's toolkit. They allow us 
  
 ### Selection Sort [➡️](https://en.wikipedia.org/wiki/Selection_sort)
 
-![Selection Sort](GIFs/SelectionSort.gif)
+![Selection Sort](Assets/SelectionSort.gif)
 
 - [C++ Implementation](CPP/selection_sort.cpp)
 - [Java Implementation](Java/SelectionSort.java)
@@ -54,7 +60,7 @@ Sorting algorithms are essential tools in a programmer's toolkit. They allow us 
 
 ### Insertion Sort [➡️](https://en.wikipedia.org/wiki/Insertion_sort)
 
-![Insertion Sort](GIFs/InsertionSort.gif)
+![Insertion Sort](Assets/InsertionSort.gif)
 
 - [C++ Implementation](CPP/insertion_sort.cpp)
 - [Java Implementation](Java/InsertionSort.java)
@@ -65,7 +71,7 @@ Sorting algorithms are essential tools in a programmer's toolkit. They allow us 
 
 ### Merge Sort [➡️](https://en.wikipedia.org/wiki/Merge_sort)
 
-![Merge Sort](GIFs/MergeSort.gif)
+![Merge Sort](Assets/MergeSort.gif)
 
 - [C++ Implementation](CPP/merge_sort.cpp)
 - [Java Implementation](Java/MergeSort.java)
@@ -76,7 +82,7 @@ Sorting algorithms are essential tools in a programmer's toolkit. They allow us 
 
 ### Quick Sort [➡️](https://en.wikipedia.org/wiki/Quicksort)
 
-![Quick Sort](GIFs/QuickSort.gif)
+![Quick Sort](Assets/QuickSort.gif)
 
 - [C++ Implementation](CPP/quick_sort.cpp)
 - [Java Implementation](Java/QuickSort.java)
@@ -99,7 +105,7 @@ Sorting algorithms are essential tools in a programmer's toolkit. They allow us 
 
 ### Heap Sort [➡️](https://en.wikipedia.org/wiki/Heapsort)
 
-![Heap Sort](GIFs/HeapSort.gif)
+![Heap Sort](Assets/HeapSort.gif)
 
 - [C++ Implementation](CPP/HeapSort.cpp)
 - [Java Implementation](Java/HeapSort.java)
@@ -110,7 +116,7 @@ Sorting algorithms are essential tools in a programmer's toolkit. They allow us 
 
 ### Radix Sort [➡️](https://en.wikipedia.org/wiki/Radix_sort)
 
-![Radix Sort](GIFs/RadixSortLSD.gif)
+![Radix Sort](Assets/RadixSortLSD.gif)
 
 - [C++ Implementation](CPP/radix_sort.cpp)
 - [Java Implementation](Java/RadixSort.java)
@@ -122,7 +128,7 @@ Sorting algorithms are essential tools in a programmer's toolkit. They allow us 
 
 ### Shell Sort [➡️](https://en.wikipedia.org/wiki/Shell_sort)
 
-![Shell Sort](GIFs/ShellSort.gif)
+![Shell Sort](Assets/ShellSort.gif)
 
 - [C++ Implementation](CPP/ShellSort.cpp)
 - [Java Implementation](Java/ShellSort.java)
@@ -147,7 +153,8 @@ In addition to the code and articles in this repository, here are some external 
 - [Sorting Algorithm Visualizer](https://visualgo.net/en/sorting)
 - [Sorting Algorithms: A Visual Guide](https://www.toptal.com/developers/sorting-algorithms)
 - [Coursera: Algorithms and Data Structures](https://www.coursera.org/specializations/algorithms)
-- [A sorting algorithm cheat sheet](https://www.cs.usfca.edu/~galles/visualization/Sorting.html)
+- [The Sound of Sorting Algorithm cheat sheet](https://www.cs.usfca.edu/~galles/visualization/Sorting.html)
+- []
 - [A list of sorting algorithms in different programming languages](https://en.wikipedia.org/wiki/Sorting_algorithm#Implementations_in_programming_languages)
 
 ## Contributing
