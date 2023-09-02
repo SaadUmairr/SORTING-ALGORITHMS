@@ -5,18 +5,14 @@
 #define vec vector<ll>
 #define ll long long int
 using namespace std;
-void Swap(ll &a, ll &b)
-{
-    a = a + b;
-    b = a - b;
-    a = a - b;
-}
-void PrintVec(vec arr)
-{
-    for (int i = 0; i < arr.size(); i++)
-        cout << arr[i] << '\t';
+
+void PrintVec(const vec& arr) {
+    for (const int& value : arr) {
+        cout << value << '\t';
+    }
     cout << endl;
 }
+
 void SelectionSort(vec &arr)
 {
     int size = arr.size(), i, j, min;
@@ -28,7 +24,7 @@ void SelectionSort(vec &arr)
             if (arr[j] < arr[min])
                 min = j;
         if (min != i)
-            Swap(arr[i], arr[min]);
+            swap(arr[i], arr[min]);
     }
 }
 

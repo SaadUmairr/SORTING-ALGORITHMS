@@ -6,12 +6,13 @@
 #define ll long long int
 using namespace std;
 
-void PrintVec(vec arr)
-{
-    for (int i = 0; i < arr.size(); i++)
-        cout << arr[i] << '\t';
+void PrintVec(const vec& arr) {
+    for (const int& value : arr) {
+        cout << value << '\t';
+    }
     cout << endl;
 }
+
 
 vec CountSort(vec &arr)
 {

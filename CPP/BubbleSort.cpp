@@ -6,12 +6,6 @@
 #define ll long long int
 using namespace std;
 
-void Swap(ll &a, ll &b)
-{
-    a = a+b;
-    b = a-b;
-    a = a-b;
-}
 void BubbleSort(vec &arr)
 {
     bool change;
@@ -23,7 +17,7 @@ void BubbleSort(vec &arr)
         {
             if(arr[j]>arr[j+1])
             {
-                Swap(arr[j], arr[j+1]);
+                swap(arr[j], arr[j+1]);
                 change = true;
             }
         }
@@ -31,12 +25,13 @@ void BubbleSort(vec &arr)
             break;
     }
 }
-void PrintVec(vec arr)
-{
-    for(int i=0;i<arr.size();i++)
-        cout<<arr[i]<<'\t';
-    cout<<endl;
+void PrintVec(const vec& arr) {
+    for (const int& value : arr) {
+        cout << value << '\t';
+    }
+    cout << endl;
 }
+
 
 int main()
 {

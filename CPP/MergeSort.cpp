@@ -6,12 +6,13 @@
 #define ll long long int
 using namespace std;
 
-void PrintVec(vec arr)
-{
-    for (int i = 0; i < arr.size(); i++)
-        cout << arr[i] << '\t';
+void PrintVec(const vec& arr) {
+    for (const int& value : arr) {
+        cout << value << '\t';
+    }
     cout << endl;
 }
+
 void ActualWorker(vec &arr, int left, int middle, int right) // This function does the actual work of Merging and sorting the arrays
 {
     int LeftHalf = middle - left + 1, RightHalf = right - middle;

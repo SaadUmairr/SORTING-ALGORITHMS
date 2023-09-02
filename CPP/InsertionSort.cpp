@@ -6,18 +6,13 @@
 #define ll long long int
 using namespace std;
 
-void Swap(ll &a, ll &b)
-{
-    a = a + b;
-    b = a - b;
-    a = a - b;
-}
-void PrintVec(vec arr)
-{
-    for (int i = 0; i < arr.size(); i++)
-        cout << arr[i] << '\t';
+void PrintVec(const vec& arr) {
+    for (const int& value : arr) {
+        cout << value << '\t';
+    }
     cout << endl;
 }
+
 void InsertionSort(vec &arr)
 {
     int size = arr.size();
@@ -26,7 +21,7 @@ void InsertionSort(vec &arr)
         int min = i;
         while (arr[min-1] > arr[min] &&  min>0)
         {
-            Swap(arr[min-1], arr[min]);
+            swap(arr[min-1], arr[min]);
             min--;
         }
     }
