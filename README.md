@@ -45,7 +45,7 @@ Sorting algorithms are essential tools in a programmer's toolkit. They allow us 
 - [Python Implementation](Python/bubble_sort.py)
 - [JavaScript Implementation](Javascript/bubble_sort.js)
 - [Article: Understanding Bubble Sort](Articles/bubble_sort.md)
-- [Notes: Bubble Sort](Notes\BubbleSort.md)
+- [Notes: Bubble Sort](Notes/BubbleSort.md)
  
 ### Selection Sort [➡️](https://en.wikipedia.org/wiki/Selection_sort)
 
@@ -56,7 +56,7 @@ Sorting algorithms are essential tools in a programmer's toolkit. They allow us 
 - [Python Implementation](Python/selection_sort.py)
 - [JavaScript Implementation](Javascript/selection_sort.js)
 - [Article: Selection Sort Explained](Articles/selection_sort.md)
-- [Notes: Selection Sort](Notes\SelectionSort.md)
+- [Notes: Selection Sort](Notes/SelectionSort.md)
 
 ### Insertion Sort [➡️](https://en.wikipedia.org/wiki/Insertion_sort)
 
@@ -67,7 +67,7 @@ Sorting algorithms are essential tools in a programmer's toolkit. They allow us 
 - [Python Implementation](Python/insertion_sort.py)
 - [JavaScript Implementation](Javascript/insertion_sort.js)
 - [Article: Mastering Insertion Sort](Articles/insertion_sort.md)
-- [Notes: Insertion Sort](Notes\InsertionSort.md)
+- [Notes: Insertion Sort](Notes/InsertionSort.md)
 
 ### Merge Sort [➡️](https://en.wikipedia.org/wiki/Merge_sort)
 
@@ -78,7 +78,7 @@ Sorting algorithms are essential tools in a programmer's toolkit. They allow us 
 - [Python Implementation](Python/merge_sort.py)
 - [JavaScript Implementation](Javascript/merge_sort.js)
 - [Article: Dive into Merge Sort](Articles/merge_sort.md)
-- [Notes: Merge Sort](Notes\MergeSort.md)
+- [Notes: Merge Sort](Notes/MergeSort.md)
 
 ### Quick Sort [➡️](https://en.wikipedia.org/wiki/Quicksort)
 
@@ -89,7 +89,7 @@ Sorting algorithms are essential tools in a programmer's toolkit. They allow us 
 - [Python Implementation](Python/quick_sort.py)
 - [JavaScript Implementation](Javascript/quick_sort.js)
 - [Article: Quick Sort Demystified](Articles/quick_sort.md)
-- [Notes: Quick Sort](Notes\QuickSort.md)
+- [Notes: Quick Sort](Notes/QuickSort.md)
 
 
 ### Count Sort [➡️](https://en.wikipedia.org/wiki/Counting_sort)
@@ -101,7 +101,7 @@ Sorting algorithms are essential tools in a programmer's toolkit. They allow us 
 - [Python Implementation](Python/CountSort.py)
 - [JavaScript Implementation](Javascript/CountSort.js)
 - [Article: Quick Sort Demystified](Articles/CountSort.md)
-- [Notes: Count Sort](Notes\CountSort.md)
+- [Notes: Count Sort](Notes/CountSort.md)
 
 ### Heap Sort [➡️](https://en.wikipedia.org/wiki/Heapsort)
 
@@ -112,9 +112,9 @@ Sorting algorithms are essential tools in a programmer's toolkit. They allow us 
 - [Python Implementation](Python/HeapSort.py)
 - [JavaScript Implementation](Javascript/heapSort.js)
 - [Article: Understanding Heap Sort](Articles/HeapSort.md)
-- [Notes: Heap Sort](Notes\HeapSort.md)
+- [Notes: Heap Sort](Notes/HeapSort.md)
 
-### Radix Sort [➡️](https://en.wikipedia.org/wiki/Radix_sort)
+### Radix Sort [➡️](https://en.wikipedia.org/wiki/Radiorgx_sort)
 
 ![Radix Sort](Assets/RadixSortLSD.gif)
 
@@ -123,7 +123,7 @@ Sorting algorithms are essential tools in a programmer's toolkit. They allow us 
 - [Python Implementation](Python/radix_sort.py)
 - [JavaScript Implementation](Javascript/radix_sort.js)
 - [Article: Radix Sort Unleashed](Articles/radix_sort.md)
-- [Notes: Radix Sort](Notes\RadixSort.md)
+- [Notes: Radix Sort](Notes/RadixSort.md)
 
 
 ### Shell Sort [➡️](https://en.wikipedia.org/wiki/Shell_sort)
@@ -135,7 +135,7 @@ Sorting algorithms are essential tools in a programmer's toolkit. They allow us 
 - [Python Implementation](Python/ShellSort.py)
 - [JavaScript Implementation](Javascript/ShellSort.js)
 - [Article: Radix Sort Unleashed](Articles/ShellSort.md)
-- [Notes: Radix Sort](Notes\ShellSort.md)
+- [Notes: Radix Sort](Notes/ShellSort.md)
 
 ## Articles
 
@@ -153,7 +153,8 @@ In addition to the code and articles in this repository, here are some external 
 - [Sorting Algorithm Visualizer](https://visualgo.net/en/sorting)
 - [Sorting Algorithms: A Visual Guide](https://www.toptal.com/developers/sorting-algorithms)
 - [Coursera: Algorithms and Data Structures](https://www.coursera.org/specializations/algorithms)
-- [The Sound of Sorting Algorithm cheat sheet](https://www.cs.usfca.edu/~galles/visualization/Sorting.html)
+- [The Sound of Sorting Algorithm cheat sheet](https://panthema.net/2013/sound-of-sorting/)
+- [Data Structure Visualization](https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html)
 - []
 - [A list of sorting algorithms in different programming languages](https://en.wikipedia.org/wiki/Sorting_algorithm#Implementations_in_programming_languages)
 
