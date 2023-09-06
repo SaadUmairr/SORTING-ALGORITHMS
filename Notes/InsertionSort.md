@@ -15,11 +15,12 @@ Java implementation of Insertion sort: [Insertion Sort](../Java/InsertionSort.ja
 Javascript implementation of Insertion sort: [Insertion Sort](../Javascript/InsertionSort.java).  
 
 ## Complexity
-- Time Complexity:
+- **Time Complexity**:
   - Best Case: O(n) (when the list is already sorted)
   - Average Case: O(n^2)
   - Worst Case: O(n^2)
-- Space Complexity: O(1) (constant extra space)
+- **Space Complexity**: 
+  - O(1) (constant extra space)
 
 ## Advantages
 - Simple and easy to implement.

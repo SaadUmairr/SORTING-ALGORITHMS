@@ -19,7 +19,8 @@ Javascript implementation of Selection sort: [Selection Sort](../CPP/SelectionSo
   - Best Case: O(n^2)
   - Average Case: O(n^2)
   - Worst Case: O(n^2)
-- Space Complexity: O(1) (constant extra space)
+- Space Complexity: 
+  - O(1) (constant extra space)
 
 ## Advantages
 - Simple and easy to implement.

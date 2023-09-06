@@ -15,11 +15,12 @@ Java implementation of Bubble sort: [Bubble Sort](../Java/BubbleSort.java).
 Javascipt implementation of Bubble sort: [Bubble Sort](../Javascript/BubbleSort.js).  
 
 ## Complexity
-- Time Complexity:
+- **Time Complexity**:
   - Best Case: O(n) (when the list is already sorted)
   - Average Case: O(n^2)
   - Worst Case: O(n^2) (when the list is sorted in reverse order)
-- Space Complexity: O(1) (since only a few extra variables are used)
+- **Space Complexity**:
+  - O(1) (since only a few extra variables are used)
 
 ## Advantages
 - Simple to understand and implement.

@@ -17,37 +17,18 @@ Radix Sort is a non-comparative sorting algorithm that works by distributing ele
    - Recursively apply the MSD Radix Sort to each bucket until all digits are processed.
    - Concatenate the sorted buckets to obtain the final sorted array.
 
+C++ implementation of Radix sort: [Radix Sort](../CPP/RadixSort.cpp).  
+Python implementation of Radix sort: [Radix Sort](../Python/RadixSort.py).  
+Java implementation of Radix sort: [Radix Sort](../Java/RadixSort.java).  
+Javascipt implementation of Radix sort: [Radix Sort](../Javascript/RadixSort.js).  
+
 ## Pseudo Code
-```python
-function radixSort(arr, base):
-    max_val = max(arr)
-    exp = 1
-    
-    while max_val // exp > 0:
-        counting_sort(arr, base, exp)
-        exp *= base
-
-function counting_sort(arr, base, exp):
-    count = [0] * base
-    n = len(arr)
-    output = [0] * n
-    
-    for i in range(n):
-        index = (arr[i] // exp) % base
-        count[index] += 1
-
-    for i in range(1, base):
-        count[i] += count[i - 1]
-
-    i = n - 1
-    while i >= 0:
-        index = (arr[i] // exp) % base
-        output[count[index] - 1] = arr[i]
-        count[index] -= 1
-        i -= 1
-
-    for i in range(n):
-        arr[i] = output[i]
+```
+1. Find the maximum digit in the data to determine the number of passes required for sorting.
+2. Do the following for each pass:
+   - Create buckets (lists) to hold the digits (0 to 9 for the decimal system).
+   - Scan the input array, count the occurrences of each digit, and store them in the corresponding bucket.
+   - Replace the input array with values in buckets in ascending order.
 ```
 
 ## Complexity
