@@ -12,13 +12,18 @@ To get started, simply navigate to the language-specific directories (cpp, java,
 
 1. [Introduction](#introduction)
 2. [Sorting Algorithms](#sorting-algorithms)
-   - [Bubble Sort](#bubble-sort)
-   - [Selection Sort](#selection-sort)
-   - [Insertion Sort](#insertion-sort)
-   - [Merge Sort](#merge-sort)
-   - [Quick Sort](#quick-sort)
-   - [Heap Sort](#heap-sort)
-   - [Radix Sort](#radix-sort)
+   - [Bubble Sort](#bubble-sort-➡️)
+   - [Selection Sort](#selection-sort-➡️)
+   - [Insertion Sort](#insertion-sort-➡️)
+   - [Merge Sort](#merge-sort-➡️)
+   - [Quick Sort](#quick-sort-➡️)
+   - [Count Sort](#count-sort-➡️)
+   - [Heap Sort](#heap-sort-➡️)
+   - [Radix Sort](#radix-sort-➡️)
+   - [Shell Sort](#shell-sort-➡️)
+   - [Tim Sort](#shell-sort-➡️)
+   - [Bucket Sort](#shell-sort-➡️)
+   - [Cube Sort](#shell-sort-➡️)
 3. [Getting Started](#getting-started)
 4. [Contributing](#contributing)
 5. [Resources](#resources)
@@ -136,6 +141,39 @@ Sorting algorithms are essential tools in a programmer's toolkit. They allow us 
 - [JavaScript Implementation](Javascript/ShellSort.js)
 - [Article: Radix Sort Unleashed](Articles/ShellSort.md)
 - [Notes: Radix Sort](Notes/ShellSort.md)
+
+### Tim Sort [➡️](https://en.wikipedia.org/wiki/Timsort)
+
+![Tim Sort](Assets/TimSort.gif)
+
+- [C++ Implementation](CPP/TimSort.cpp)
+- [Java Implementation](Java/TimSort.java)
+- [Python Implementation](Python/TimSort.py)
+- [JavaScript Implementation](Javascript/TimSort.js)
+- [Article: Radix Sort Unleashed](Articles/TimSort.md)
+- [Notes: Radix Sort](Notes/TimSort.md)
+
+### Bucket Sort [➡️](https://en.wikipedia.org/wiki/Bucket_sort)
+
+![Shell Sort](Assets/BucketSort.gif)
+
+- [C++ Implementation](CPP/BucketSort.cpp)
+- [Java Implementation](Java/BucketSort.java)
+- [Python Implementation](Python/BucketSort.py)
+- [JavaScript Implementation](Javascript/BucketSort.js)
+- [Article: Radix Sort Unleashed](Articles/BucketSort.md)
+- [Notes: Radix Sort](Notes/BucketSort.md)
+
+### Cube Sort [➡️](https://en.wikipedia.org/wiki/Cube_sort)
+
+![Shell Sort](Assets/CubeSort.gif)
+
+- [C++ Implementation](CPP/CubeSort.cpp)
+- [Java Implementation](Java/CubeSort.java)
+- [Python Implementation](Python/CubeSort.py)
+- [JavaScript Implementation](Javascript/CubeSort.js)
+- [Article: Radix Sort Unleashed](Articles/CubeSort.md)
+- [Notes: Radix Sort](Notes/CubeSort.md)
 
 ## Articles
 
