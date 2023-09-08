@@ -1,4 +1,4 @@
-def quick_sort(arr):
+def QuickSort(arr):
     if len(arr) <= 1:
         return arr
     
@@ -7,8 +7,11 @@ def quick_sort(arr):
     middle = [x for x in arr if x == pivot]
     right = [x for x in arr if x > pivot]
     
-    return quick_sort(left) + middle + quick_sort(right)
+    return QuickSort(left) + middle + QuickSort(right)
 
-arr = [12, 4, 5, 6, 7, 3, 1, 15]
-sorted_arr = quick_sort(arr)
-print(sorted_arr)
+arr = []
+size = int(input('Enter size of the list: '))
+for _ in range(size):
+    el = int(input('Enter element: '))
+    arr.append(el)
+print(QuickSort(arr))
