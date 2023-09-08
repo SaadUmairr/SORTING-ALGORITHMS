@@ -49,8 +49,8 @@ Sorting algorithms are essential tools in a programmer's toolkit. They allow us 
 - [Java Implementation](Java/BubbleSort.java)
 - [Python Implementation](Python/bubble_sort.py)
 - [JavaScript Implementation](Javascript/bubble_sort.js)
-- [Article: Understanding Bubble Sort](Articles/bubble_sort.md)
-- [Notes: Bubble Sort](Notes/BubbleSort.md)
+- [Article: Understanding Bubble Sort](Articles/bubble_sort.pdf)
+- [Notes: Bubble Sort](Notes/BubbleSort.pdf)
  
 ### Selection Sort [➡️](https://en.wikipedia.org/wiki/Selection_sort)
 
@@ -60,8 +60,8 @@ Sorting algorithms are essential tools in a programmer's toolkit. They allow us 
 - [Java Implementation](Java/SelectionSort.java)
 - [Python Implementation](Python/selection_sort.py)
 - [JavaScript Implementation](Javascript/selection_sort.js)
-- [Article: Selection Sort Explained](Articles/selection_sort.md)
-- [Notes: Selection Sort](Notes/SelectionSort.md)
+- [Article: Selection Sort Explained](Articles/selection_sort.pdf)
+- [Notes: Selection Sort](Notes/SelectionSort.pdf)
 
 ### Insertion Sort [➡️](https://en.wikipedia.org/wiki/Insertion_sort)
 
@@ -71,8 +71,8 @@ Sorting algorithms are essential tools in a programmer's toolkit. They allow us 
 - [Java Implementation](Java/InsertionSort.java)
 - [Python Implementation](Python/insertion_sort.py)
 - [JavaScript Implementation](Javascript/insertion_sort.js)
-- [Article: Mastering Insertion Sort](Articles/insertion_sort.md)
-- [Notes: Insertion Sort](Notes/InsertionSort.md)
+- [Article: Mastering Insertion Sort](Articles/insertion_sort.pdf)
+- [Notes: Insertion Sort](Notes/InsertionSort.pdf)
 
 ### Merge Sort [➡️](https://en.wikipedia.org/wiki/Merge_sort)
 
@@ -82,8 +82,8 @@ Sorting algorithms are essential tools in a programmer's toolkit. They allow us 
 - [Java Implementation](Java/MergeSort.java)
 - [Python Implementation](Python/merge_sort.py)
 - [JavaScript Implementation](Javascript/merge_sort.js)
-- [Article: Dive into Merge Sort](Articles/merge_sort.md)
-- [Notes: Merge Sort](Notes/MergeSort.md)
+- [Article: Dive into Merge Sort](Articles/merge_sort.pdf)
+- [Notes: Merge Sort](Notes/MergeSort.pdf)
 
 ### Quick Sort [➡️](https://en.wikipedia.org/wiki/Quicksort)
 
@@ -93,8 +93,8 @@ Sorting algorithms are essential tools in a programmer's toolkit. They allow us 
 - [Java Implementation](Java/QuickSort.java)
 - [Python Implementation](Python/quick_sort.py)
 - [JavaScript Implementation](Javascript/quick_sort.js)
-- [Article: Quick Sort Demystified](Articles/quick_sort.md)
-- [Notes: Quick Sort](Notes/QuickSort.md)
+- [Article: Quick Sort Demystified](Articles/quick_sort.pdf)
+- [Notes: Quick Sort](Notes/QuickSort.pdf)
 
 
 ### Count Sort [➡️](https://en.wikipedia.org/wiki/Counting_sort)
@@ -105,8 +105,8 @@ Sorting algorithms are essential tools in a programmer's toolkit. They allow us 
 - [Java Implementation](Java/CountSort.java)
 - [Python Implementation](Python/CountSort.py)
 - [JavaScript Implementation](Javascript/CountSort.js)
-- [Article: Quick Sort Demystified](Articles/CountSort.md)
-- [Notes: Count Sort](Notes/CountSort.md)
+- [Article: Quick Sort Demystified](Articles/CountSort.pdf)
+- [Notes: Count Sort](Notes/CountSort.pdf)
 
 ### Heap Sort [➡️](https://en.wikipedia.org/wiki/Heapsort)
 
@@ -116,8 +116,8 @@ Sorting algorithms are essential tools in a programmer's toolkit. They allow us 
 - [Java Implementation](Java/HeapSort.java)
 - [Python Implementation](Python/HeapSort.py)
 - [JavaScript Implementation](Javascript/heapSort.js)
-- [Article: Understanding Heap Sort](Articles/HeapSort.md)
-- [Notes: Heap Sort](Notes/HeapSort.md)
+- [Article: Understanding Heap Sort](Articles/HeapSort.pdf)
+- [Notes: Heap Sort](Notes/HeapSort.pdf)
 
 ### Radix Sort [➡️](https://en.wikipedia.org/wiki/Radiorgx_sort)
 
@@ -127,8 +127,8 @@ Sorting algorithms are essential tools in a programmer's toolkit. They allow us 
 - [Java Implementation](Java/RadixSort.java)
 - [Python Implementation](Python/radix_sort.py)
 - [JavaScript Implementation](Javascript/radix_sort.js)
-- [Article: Radix Sort Unleashed](Articles/radix_sort.md)
-- [Notes: Radix Sort](Notes/RadixSort.md)
+- [Article: Radix Sort Unleashed](Articles/radix_sort.pdf)
+- [Notes: Radix Sort](Notes/RadixSort.pdf)
 
 
 ### Shell Sort [➡️](https://en.wikipedia.org/wiki/Shell_sort)
@@ -139,8 +139,8 @@ Sorting algorithms are essential tools in a programmer's toolkit. They allow us 
 - [Java Implementation](Java/ShellSort.java)
 - [Python Implementation](Python/ShellSort.py)
 - [JavaScript Implementation](Javascript/ShellSort.js)
-- [Article: Radix Sort Unleashed](Articles/ShellSort.md)
-- [Notes: Radix Sort](Notes/ShellSort.md)
+- [Article: Radix Sort Unleashed](Articles/ShellSort.pdf)
+- [Notes: Radix Sort](Notes/ShellSort.pdf)
 
 ### Tim Sort [➡️](https://en.wikipedia.org/wiki/Timsort)
 
@@ -150,8 +150,8 @@ Sorting algorithms are essential tools in a programmer's toolkit. They allow us 
 - [Java Implementation](Java/TimSort.java)
 - [Python Implementation](Python/TimSort.py)
 - [JavaScript Implementation](Javascript/TimSort.js)
-- [Article: Radix Sort Unleashed](Articles/TimSort.md)
-- [Notes: Radix Sort](Notes/TimSort.md)
+- [Article: Radix Sort Unleashed](Articles/TimSort.pdf)
+- [Notes: Radix Sort](Notes/TimSort.pdf)
 
 ### Bucket Sort [➡️](https://en.wikipedia.org/wiki/Bucket_sort)
 
@@ -161,8 +161,8 @@ Sorting algorithms are essential tools in a programmer's toolkit. They allow us 
 - [Java Implementation](Java/BucketSort.java)
 - [Python Implementation](Python/BucketSort.py)
 - [JavaScript Implementation](Javascript/BucketSort.js)
-- [Article: Radix Sort Unleashed](Articles/BucketSort.md)
-- [Notes: Radix Sort](Notes/BucketSort.md)
+- [Article: Radix Sort Unleashed](Articles/BucketSort.pdf)
+- [Notes: Radix Sort](Notes/BucketSort.pdf)
 
 ### Cube Sort [➡️](https://en.wikipedia.org/wiki/Cube_sort)
 
@@ -172,8 +172,8 @@ Sorting algorithms are essential tools in a programmer's toolkit. They allow us 
 - [Java Implementation](Java/CubeSort.java)
 - [Python Implementation](Python/CubeSort.py)
 - [JavaScript Implementation](Javascript/CubeSort.js)
-- [Article: Radix Sort Unleashed](Articles/CubeSort.md)
-- [Notes: Radix Sort](Notes/CubeSort.md)
+- [Article: Radix Sort Unleashed](Articles/CubeSort.pdf)
+- [Notes: Radix Sort](Notes/CubeSort.pdf)
 
 ## Articles
 
