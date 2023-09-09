@@ -50,12 +50,12 @@ def main():
         el = int(input())
         arr.append(el)
     
-    print("ARRAY BEFORE SORTING:")
+    print("INPUT LIST:")
     print_arr(arr)
     
     radix_sort(arr)
     
-    print("ARRAY AFTER SORTING:")
+    print("SORTED LIST:")
     print_arr(arr)
 
 if __name__ == "__main__":

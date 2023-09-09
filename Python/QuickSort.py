@@ -14,4 +14,5 @@ size = int(input('Enter size of the list: '))
 for _ in range(size):
     el = int(input('Enter element: '))
     arr.append(el)
-print(QuickSort(arr))
+print("INPUT LIST:", arr)
+print("SORTED LIST",QuickSort(arr))

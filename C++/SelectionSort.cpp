@@ -38,16 +38,16 @@ int main()
     cin >> size;
     if (size <= 0)
     {
-        cout << "Size of list can not be negative" << endl;
+        cout << "Size of list can not be negative or zero" << endl;
         return 1;
     }
     vec arr;
     for (int i = 0; i < size; i++)
         cin >> el, arr.push_back(el);
-    cout << "ARRAY BEFORE SORTING:" << endl;
+    cout << "INPUT LIST:" << endl;
     PrintVec(arr);
     SelectionSort(arr);
-    cout << "ARRAY AFTER SORTING:" << endl;
+    cout << "SORTED LIST:" << endl;
     PrintVec(arr);
 
     return 0;

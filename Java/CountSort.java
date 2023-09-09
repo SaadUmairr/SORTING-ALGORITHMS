@@ -1,52 +1,52 @@
+import java.util.Scanner;
+
 public class CountSort {
     public static void main(String[] args) {
-        int[] arr = {4, 2, 2, 8, 3, 3, 1};
+        Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Original Array:");
-        printArray(arr);
+        System.out.print("Enter the number of elements: ");
+        int n = scanner.nextInt();
 
-        countingSort(arr);
+        int[] arr = new int[n];
+        int max = Integer.MIN_VALUE;
 
-        System.out.println("\nSorted Array:");
-        printArray(arr);
-    }
-
-    public static void countingSort(int[] arr) {
-        int max = findMax(arr);
-
-        // Create a counting array to store the count of each element
-        int[] countArray = new int[max + 1];
-
-        // Populate the counting array
-        for (int value : arr) {
-            countArray[value]++;
+        System.out.println("Enter " + n + " elements:");
+        for (int i = 0; i < n; i++) {
+            arr[i] = scanner.nextInt();
+            if (arr[i] > max) {
+                max = arr[i];
+            }
         }
 
-        // Reconstruct the sorted array
-        int index = 0;
+        System.out.println("INPUT LIST: ");
+        for (int num : arr) {
+            System.out.print(num + " ");
+        }
+
+        countingSort(arr, max);
+
+        System.out.println("\nSORTED LIST: ");
+        for (int num : arr) {
+            System.out.print(num + " ");
+        }
+
+        scanner.close();
+    }
+
+    public static void countingSort(int[] arr, int max) {
+        int[] countArray = new int[max + 1];
+
+        for (int num : arr) {
+            countArray[num]++;
+        }
+
+        int outputIndex = 0;
         for (int i = 0; i < countArray.length; i++) {
             while (countArray[i] > 0) {
-                arr[index] = i;
-                index++;
+                arr[outputIndex] = i;
+                outputIndex++;
                 countArray[i]--;
             }
         }
-    }
-
-    public static int findMax(int[] arr) {
-        int max = arr[0];
-        for (int value : arr) {
-            if (value > max) {
-                max = value;
-            }
-        }
-        return max;
-    }
-
-    public static void printArray(int[] arr) {
-        for (int value : arr) {
-            System.out.print(value + " ");
-        }
-        System.out.println();
     }
 }

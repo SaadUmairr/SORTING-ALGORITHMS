@@ -1,4 +1,3 @@
-// Function to perform insertion sort
 function insertionSort(arr) {
     for (let i = 1; i < arr.length; i++) {
       let currentElement = arr[i];
@@ -21,10 +20,10 @@ function insertionSort(arr) {
   
     rl.question('Enter numbers separated by spaces: ', (input) => {
       const unsortedArray = input.split(' ').map(Number);
-  
+      console.log("INPUT LIST:",unsortedArray)
       insertionSort(unsortedArray);
-  
-      console.log('Sorted array:', unsortedArray);
+      
+      console.log('SORTED LIST:', unsortedArray);
   
       rl.close();
     });

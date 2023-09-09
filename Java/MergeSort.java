@@ -7,6 +7,11 @@ public class MergeSort {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter size of the list: ");
         int size = scanner.nextInt();
+        if(size<=0){
+            System.out.println("Size of list can not be negative or zero");
+            scanner.close();
+            return ;
+        }
         for (int i = 0; i < size; i++) {
             int el = scanner.nextInt();
             arr.add(el);

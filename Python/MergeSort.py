@@ -39,5 +39,6 @@ size = int(input('Enter size of the list: '))
 for _ in range(size):
     el = int(input('Enter element: '))
     arr.append(el)
+print("INPUT LIST:", arr)
 MergeSort(arr, 0, size - 1)
-print("Sorted list:", arr)
+print("SORTED LIST:", arr)

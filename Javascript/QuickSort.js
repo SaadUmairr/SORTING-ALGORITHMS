@@ -67,10 +67,10 @@ function getInput() {
 
 async function main() {
     const arr = await getInput();
-    console.log("BEFORE SORTING:");
+    console.log("INPUT LIST:");
     printArray(arr);
     const sortedArr = quickSort(arr);
-    console.log("AFTER SORTING:");
+    console.log("SORTED LIST:");
     printArray(sortedArr);
     process.exit(0);
 }

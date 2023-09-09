@@ -15,5 +15,6 @@ size = int(input("Enter the size of the list: "))
 for _ in range(size):
     el = int(input("Enter a number: "))
     arr.append(el)
+print("INPUT LIST:", arr)
 arr = BubbleSort(arr)
-print("Sorted list:", arr)
+print("SORTED LIST:", arr)

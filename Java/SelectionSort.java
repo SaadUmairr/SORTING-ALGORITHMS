@@ -7,13 +7,21 @@ public class SelectionSort {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter size of the list: ");
         int size = scanner.nextInt();
+        if(size<=0){
+            System.out.println("Size of list can not be negative or zero");
+            scanner.close();
+            return ;
+        }
         System.out.println("Enter element: ");
         for (int i = 0; i < size; i++) {
             int el = scanner.nextInt();
             arr.add(el);
         }
+        System.out.println("INPUT LIST");
+        for (int num : arr)
+            System.out.print(num + " ");
         selectionSort(arr);
-        System.out.println("SORTED LIST");
+        System.out.println("\nSORTED LIST");
         for (int num : arr)
             System.out.print(num + " ");
         scanner.close();

@@ -1,13 +1,32 @@
-import java.util.Arrays;
+import java.util.ArrayList;
+import java.util.Scanner;
 
 public class QuickSort {
     public static void main(String[] args) {
-        int[] arr = {12, 4, 5, 6, 7, 3, 1, 15};
-        quickSort(arr, 0, arr.length - 1);
-        System.out.println(Arrays.toString(arr));
+        Scanner scanner = new Scanner(System.in);
+        ArrayList<Integer> list = new ArrayList<>();
+
+        System.out.print("Enter the number of elements: ");
+        int size = scanner.nextInt();
+        if(size<=0){
+            System.out.println("Size of list can not be negative or zero");
+            scanner.close();
+            return ;
+        }
+        System.out.println("Enter " + size + " elements:");
+        for (int i = 0; i < size; i++) {
+            int element = scanner.nextInt();
+            list.add(element);
+        }
+
+        System.out.println("INPUT LIST: " + list);
+        quickSort(list, 0, list.size() - 1);
+        System.out.println("SORTED LIST: " + list);
+
+        scanner.close();
     }
 
-    public static void quickSort(int[] arr, int low, int high) {
+    public static void quickSort(ArrayList<Integer> arr, int low, int high) {
         if (low < high) {
             int pivotIndex = partition(arr, low, high);
             quickSort(arr, low, pivotIndex - 1);
@@ -15,20 +34,23 @@ public class QuickSort {
         }
     }
 
-    public static int partition(int[] arr, int low, int high) {
-        int pivot = arr[high];
+    public static int partition(ArrayList<Integer> arr, int low, int high) {
+        int pivot = arr.get(high);
         int i = low - 1;
+
         for (int j = low; j < high; j++) {
-            if (arr[j] < pivot) {
+            if (arr.get(j) < pivot) {
                 i++;
-                int temp = arr[i];
-                arr[i] = arr[j];
-                arr[j] = temp;
+                int temp = arr.get(i);
+                arr.set(i, arr.get(j));
+                arr.set(j, temp);
             }
         }
-        int temp = arr[i + 1];
-        arr[i + 1] = arr[high];
-        arr[high] = temp;
+
+        int temp = arr.get(i + 1);
+        arr.set(i + 1, arr.get(high));
+        arr.set(high, temp);
+
         return i + 1;
     }
 }

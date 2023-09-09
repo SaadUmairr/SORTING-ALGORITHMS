@@ -71,10 +71,10 @@ rl.question("Enter size of the array: ", (size) => {
         });
 
         rl.on('close', () => {
-            console.log("ARRAY BEFORE SORTING:");
+            console.log("INPUT LIST:");
             printArray(arr);
             radixSort(arr);
-            console.log("ARRAY AFTER SORTING:");
+            console.log("SORTED LIST:");
             printArray(arr);
         });
     }

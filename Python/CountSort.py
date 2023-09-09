@@ -19,6 +19,6 @@ size = int(input("Enter size of the list: "))
 for _ in range(size):
     el = int(input("Enter element: "))
     arr.append(el)
-
+print("INPUT LIST:", arr)
 arr = CountSort(arr)
-print(arr)
+print("SORTED LIST:", arr)

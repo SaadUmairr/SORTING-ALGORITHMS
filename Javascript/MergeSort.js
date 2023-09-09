@@ -41,8 +41,9 @@ function mergeSort(arr) {
       const unsortedArray = input.split(' ').map(Number);
   
       const sortedArray = mergeSort(unsortedArray);
-  
-      console.log('Sorted array:', sortedArray);
+      
+      console.log('INPUT LIST:', unsortedArray);
+      console.log('SORTED LIST:', sortedArray);
   
       rl.close();
     });

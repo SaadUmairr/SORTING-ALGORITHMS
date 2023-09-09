@@ -7,7 +7,7 @@ public class RadixSort {
         int size = scanner.nextInt();
         
         if (size <= 0) {
-            System.out.println("Size of list cannot be negative");
+            System.out.println("Size of list cannot be negative or zero");
             scanner.close();
             return;
         }
@@ -19,12 +19,12 @@ public class RadixSort {
             arr.add(el);
         }
         
-        System.out.println("ARRAY BEFORE SORTING:");
+        System.out.println("INPUT LIST:");
         printList(arr);
         
         radixSort(arr);
         
-        System.out.println("ARRAY AFTER SORTING:");
+        System.out.println("SORTED LIST:");
         printList(arr);
         scanner.close();
     }
