@@ -4,49 +4,44 @@ const rl = readline.createInterface({
     output: process.stdout
 });
 
-function bubbleSort(array) {
-    let n = array.length;
-    let swapped = true;
-
-    while (swapped) {
-        swapped = false;
-        for (let i = 0; i < n - 1; i++) {
-            if (array[i] > array[i + 1]) {
-                [array[i], array[i + 1]] = [array[i + 1], array[i]];
-                swapped = true;
+function SelectionSort(arr) {
+    const size = arr.length;
+    for (let i = 0; i < size - 1; i++) {
+        let min = i;
+        for (let j = i + 1; j < size; j++) {
+            if (arr[j] < arr[min]) {
+                min = j;
             }
         }
-        n--;
+        if (min !== i) {
+            [arr[i], arr[min]] = [arr[min], arr[i]];
+        }
     }
-
-    return array;
 }
 
 function printArray(arr) {
-    for (let i = 0; i < arr.length; i++) {
-        console.log(arr[i]);
-    }
+    console.log(arr.join(' '));
 }
 
 function getInput() {
     return new Promise((resolve) => {
         const arr = [];
-        rl.question("Enter size of the list: ", (size) => {
+        rl.question("Enter size of the array: ", (size) => {
             size = parseInt(size);
 
             if (size <= 0) {
-                console.log("Size of the list cannot be negative");
+                console.log("Size of the array cannot be negative");
                 rl.close();
                 resolve([]);
             } else {
-                console.log("Enter elements of the list:");
+                console.log("Enter elements of the array:");
                 let inputCount = 0;
 
                 rl.on('line', (line) => {
-                    const number = parseInt(line);
+                    const el = parseInt(line);
 
-                    if (!isNaN(number)) {
-                        arr.push(number);
+                    if (!isNaN(el)) {
+                        arr.push(el);
                         inputCount++;
 
                         if (inputCount === size) {
@@ -62,10 +57,10 @@ function getInput() {
 
 async function main() {
     const arr = await getInput();
-    console.log("BEFORE SORTING:");
+    console.log("ARRAY BEFORE SORTING:");
     printArray(arr);
-    bubbleSort(arr);
-    console.log("AFTER SORTING:");
+    SelectionSort(arr);
+    console.log("ARRAY AFTER SORTING:");
     printArray(arr);
     process.exit(0);
 }

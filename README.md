@@ -8,7 +8,7 @@ Sorting algorithms are fundamental concepts in computer science, used to rearran
 
 ## Getting Started
 
-To get started, simply navigate to the language-specific directories (CPP, Java, Python and Javascript) and explore the sorting algorithm implementations. Each algorithm comes with its code, explanations, and associated articles. Feel free to modify, experiment, and learn from these implementations.
+To get started, simply navigate to the language-specific directories (C++, Java, Python and Javascript) and explore the sorting algorithm implementations. Each algorithm comes with its code, explanations, and associated articles. Feel free to modify, experiment, and learn from these implementations.
 
 ## Table of Contents
 
@@ -49,7 +49,7 @@ Bubble sort is a simple sorting algorithm that repeatedly steps through the list
 
 ![Bubble Sort](Assets/BubbleSort.gif)
 
-- [C++ Implementation](CPP/bubble_sort.cpp)
+- [C++ Implementation](C++/bubble_sort.cpp)
 - [Java Implementation](Java/BubbleSort.java)
 - [Python Implementation](Python/bubble_sort.py)
 - [JavaScript Implementation](Javascript/bubble_sort.js)
@@ -62,7 +62,7 @@ Selection sort is a straightforward sorting algorithm that divides the input int
 
 ![Selection Sort](Assets/SelectionSort.gif)
 
-- [C++ Implementation](CPP/selection_sort.cpp)
+- [C++ Implementation](C++/selection_sort.cpp)
 - [Java Implementation](Java/SelectionSort.java)
 - [Python Implementation](Python/selection_sort.py)
 - [JavaScript Implementation](Javascript/selection_sort.js)
@@ -75,7 +75,7 @@ Insertion sort is a simple sorting algorithm that builds the final sorted array 
 
 ![Insertion Sort](Assets/InsertionSort.gif)
 
-- [C++ Implementation](CPP/insertion_sort.cpp)
+- [C++ Implementation](C++/insertion_sort.cpp)
 - [Java Implementation](Java/InsertionSort.java)
 - [Python Implementation](Python/insertion_sort.py)
 - [JavaScript Implementation](Javascript/insertion_sort.js)
@@ -88,7 +88,7 @@ Merge sort is a divide-and-conquer sorting algorithm that divides an array into 
 
 ![Merge Sort](Assets/MergeSort.gif)
 
-- [C++ Implementation](CPP/merge_sort.cpp)
+- [C++ Implementation](C++/merge_sort.cpp)
 - [Java Implementation](Java/MergeSort.java)
 - [Python Implementation](Python/merge_sort.py)
 - [JavaScript Implementation](Javascript/merge_sort.js)
@@ -101,7 +101,7 @@ Quick sort is a fast and efficient divide-and-conquer sorting algorithm that sel
 
 ![Quick Sort](Assets/QuickSort.gif)
 
-- [C++ Implementation](CPP/quick_sort.cpp)
+- [C++ Implementation](C++/quick_sort.cpp)
 - [Java Implementation](Java/QuickSort.java)
 - [Python Implementation](Python/quick_sort.py)
 - [JavaScript Implementation](Javascript/quick_sort.js)
@@ -114,7 +114,7 @@ Counting sort is a non-comparative integer sorting algorithm that works by count
 
 ![Count Sort]()
 
-- [C++ Implementation](CPP/CountSort.cpp)
+- [C++ Implementation](C++/CountSort.cpp)
 - [Java Implementation](Java/CountSort.java)
 - [Python Implementation](Python/CountSort.py)
 - [JavaScript Implementation](Javascript/CountSort.js)
@@ -127,7 +127,7 @@ Heap sort is a comparison-based sorting algorithm that builds a binary heap data
 
 ![Heap Sort](Assets/HeapSort.gif)
 
-- [C++ Implementation](CPP/HeapSort.cpp)
+- [C++ Implementation](C++/HeapSort.cpp)
 - [Java Implementation](Java/HeapSort.java)
 - [Python Implementation](Python/HeapSort.py)
 - [JavaScript Implementation](Javascript/heapSort.js)
@@ -140,7 +140,7 @@ Radix sort is a non-comparative sorting algorithm that works by distributing ele
 
 ![Radix Sort](Assets/RadixSortLSD.gif)
 
-- [C++ Implementation](CPP/radix_sort.cpp)
+- [C++ Implementation](C++/radix_sort.cpp)
 - [Java Implementation](Java/RadixSort.java)
 - [Python Implementation](Python/radix_sort.py)
 - [JavaScript Implementation](Javascript/radix_sort.js)
@@ -153,7 +153,7 @@ Shell sort, also known as diminishing increment sort, is a variation of insertio
 
 ![Shell Sort](Assets/ShellSort.gif)
 
-- [C++ Implementation](CPP/ShellSort.cpp)
+- [C++ Implementation](C++/ShellSort.cpp)
 - [Java Implementation](Java/ShellSort.java)
 - [Python Implementation](Python/ShellSort.py)
 - [JavaScript Implementation](Javascript/ShellSort.js)
@@ -166,7 +166,7 @@ Tim sort is a hybrid sorting algorithm derived from merge sort and insertion sor
 
 ![Tim Sort](Assets/TimSort.gif)
 
-- [C++ Implementation](CPP/TimSort.cpp)
+- [C++ Implementation](C++/TimSort.cpp)
 - [Java Implementation](Java/TimSort.java)
 - [Python Implementation](Python/TimSort.py)
 - [JavaScript Implementation](Javascript/TimSort.js)
@@ -179,7 +179,7 @@ Bucket sort is a sorting algorithm that distributes elements into a finite numbe
 
 ![Bucket Sort](Assets/BucketSort.gif)
 
-- [C++ Implementation](CPP/BucketSort.cpp)
+- [C++ Implementation](C++/BucketSort.cpp)
 - [Java Implementation](Java/BucketSort.java)
 - [Python Implementation](Python/BucketSort.py)
 - [JavaScript Implementation](Javascript/BucketSort.js)
@@ -192,7 +192,7 @@ Cube sort, also known as block sort, is an efficient in-place sorting algorithm 
 
 ![Cube Sort](Assets/CubeSort.gif)
 
-- [C++ Implementation](CPP/CubeSort.cpp)
+- [C++ Implementation](C++/CubeSort.cpp)
 - [Java Implementation](Java/CubeSort.java)
 - [Python Implementation](Python/CubeSort.py)
 - [JavaScript Implementation](Javascript/CubeSort.js)
