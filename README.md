@@ -217,7 +217,6 @@ In addition to the code and articles in this repository, here are some external 
 - [Coursera: Algorithms and Data Structures](https://www.coursera.org/specializations/algorithms)
 - [The Sound of Sorting Algorithm cheat sheet](https://panthema.net/2013/sound-of-sorting/)
 - [Data Structure Visualization](https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html)
-- []
 - [A list of sorting algorithms in different programming languages](https://en.wikipedia.org/wiki/Sorting_algorithm#Implementations_in_programming_languages)
 
 ## Contributing
