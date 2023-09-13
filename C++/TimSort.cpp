@@ -82,15 +82,9 @@ void TimSort(vector<int> &arr)
 int main()
 {
     system("cls");
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-#ifndef ONLINE_JUDGE
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
-#endif
     int size, el;
     vector<int> arr;
-    // cout << "Enter size of the list: ";
+    cout << "Enter size of the list: ";
     cin >> size;
     if (size <= 0)
     {
@@ -99,8 +93,8 @@ int main()
     }
     for (int i = 0; i < size; i++)
         cin >> el, arr.push_back(el);
-    // cout << "INPUT LIST" << endl;
-    // PrintVec(arr);
+    cout << "INPUT LIST" << endl;
+    PrintVec(arr);
     TimSort(arr);
     cout << "SORTED LIST" << endl;
     PrintVec(arr);
