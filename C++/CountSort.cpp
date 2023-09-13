@@ -15,7 +15,7 @@ void PrintVec(const vec &arr)
     cout << endl;
 }
 
-vec CountSort(vec &arr)
+void CountSort(vec &arr)
 {
     ll high = arr[0], i;
     for (i = 0; i < arr.size(); i++)
@@ -28,27 +28,43 @@ vec CountSort(vec &arr)
     vec sorted(arr.size());
     for (i = high - 1; i >= 0; i--)
         sorted[--freq[arr[i]]] = arr[i];
-    return sorted;
+    arr = sorted;
+}
+int inputNumber()
+{
+    int num;
+    cin >> num;
+    if (cin.fail())
+    {
+        cin.clear();
+        cin.ignore(numeric_limits<streamsize>::max(), '\n');
+        throw runtime_error("INPUT MUST BE A NUMBER");
+    }
+    return num;
 }
 
 int main()
 {
     system("cls");
     int size, el;
-    cout << "Enter size of the array: ";
-    cin >> size;
-    if (size <= 0)
+    try
     {
-        cout << "Size of list can not be negative or zero" << endl;
-        return 1;
+        cout << "Enter size of the array: ";
+        size = inputNumber();
+        if (size <= 0)
+            throw runtime_error("Size of list can not be negative or zero");
+        vec arr;
+        for (int i = 0; i < size; i++)
+            el = inputNumber(), arr.push_back(el);
+        cout << "INPUT LIST:" << endl;
+        PrintVec(arr);
+        CountSort(arr);
+        cout << "SORTED LIST:" << endl;
+        PrintVec(arr);
     }
-    vec arr;
-    for (int i = 0; i < size; i++)
-        cin >> el, arr.push_back(el);
-    cout << "INPUT LIST:" << endl;
-    PrintVec(arr);
-    arr = CountSort(arr);
-    cout << "SORTED LIST:" << endl;
-    PrintVec(arr);
+    catch (runtime_error e)
+    {
+        cout << "Error : " << e.what() << endl;
+    }
     return 0;
 }

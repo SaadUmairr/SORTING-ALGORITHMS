@@ -2,6 +2,8 @@
 #include <vector>
 #include <map>
 #include <algorithm>
+#define vec vector<int>
+// #define ll long long int
 using namespace std;
 
 const int RUN = 32;
@@ -78,25 +80,41 @@ void TimSort(vector<int> &arr)
         }
     }
 }
+int inputNumber()
+{
+    int num;
+    cin >> num;
+    if (cin.fail())
+    {
+        cin.clear();
+        cin.ignore(numeric_limits<streamsize>::max(), '\n');
+        throw runtime_error("INPUT MUST BE A NUMBER");
+    }
+    return num;
+}
 
 int main()
 {
     system("cls");
     int size, el;
-    vector<int> arr;
-    cout << "Enter size of the list: ";
-    cin >> size;
-    if (size <= 0)
+    try
     {
-        cout << "Size can not be negative or zero" << endl;
-        return 1;
+        cout << "Enter size of the array: ";
+        size = inputNumber();
+        if (size <= 0)
+            throw runtime_error("Size of list can not be negative or zero");
+        vec arr;
+        for (int i = 0; i < size; i++)
+            el = inputNumber(), arr.push_back(el);
+        cout << "INPUT LIST:" << endl;
+        PrintVec(arr);
+        TimSort(arr);
+        cout << "SORTED LIST:" << endl;
+        PrintVec(arr);
     }
-    for (int i = 0; i < size; i++)
-        cin >> el, arr.push_back(el);
-    cout << "INPUT LIST" << endl;
-    PrintVec(arr);
-    TimSort(arr);
-    cout << "SORTED LIST" << endl;
-    PrintVec(arr);
+    catch (runtime_error e)
+    {
+        cout << "Error : " << e.what() << endl;
+    }
     return 0;
 }

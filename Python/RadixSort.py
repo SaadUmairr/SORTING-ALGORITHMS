@@ -28,7 +28,7 @@ def counting_sort(arr, exp):
     for i in range(len(arr)):
         arr[i] = output[i]
 
-def radix_sort(arr):
+def RadixSort(arr):
     MAX = get_max(arr)
     exp = 1
     
@@ -36,27 +36,22 @@ def radix_sort(arr):
         counting_sort(arr, exp)
         exp *= 10
 
-def main():
-    print("Enter size of the array: ")
-    size = int(input())
-    
-    if size <= 0:
-        print("Size of list cannot be negative")
-        return
-    
+try:
     arr = []
-    
+    size = int(input("Enter the size of the list: "))
     for _ in range(size):
-        el = int(input())
-        arr.append(el)
-    
-    print("INPUT LIST:")
-    print_arr(arr)
-    
-    radix_sort(arr)
-    
-    print("SORTED LIST:")
-    print_arr(arr)
+        while True:
+            try:
+                el = int(input("Enter a number: "))
+                arr.append(el)
+                break 
+            except ValueError:
+                print("Invalid input. Please enter a valid number.")
 
-if __name__ == "__main__":
-    main()
+    print("INPUT LIST:", arr)
+    RadixSort(arr)
+    print("SORTED LIST:", arr)
+except KeyboardInterrupt:
+    print("Program interrupted by the user.")
+except Exception as e:
+    print(f"INPUT MUST BE IN NUMBER")

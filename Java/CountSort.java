@@ -1,52 +1,65 @@
+import java.util.ArrayList;
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class CountSort {
     public static void main(String[] args) {
+        ArrayList<Integer> arr = new ArrayList<>();
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter size of the list: ");
+        try {
+            int size = scanner.nextInt();
 
-        System.out.print("Enter the number of elements: ");
-        int n = scanner.nextInt();
-
-        int[] arr = new int[n];
-        int max = Integer.MIN_VALUE;
-
-        System.out.println("Enter " + n + " elements:");
-        for (int i = 0; i < n; i++) {
-            arr[i] = scanner.nextInt();
-            if (arr[i] > max) {
-                max = arr[i];
+            if (size <= 0) {
+                System.out.println("Size of list can not be negative or zero");
+                scanner.close();
+                return;
             }
+            System.out.println("Enter the elements: ");
+            for (int i = 0; i < size; i++) {
+                int el = scanner.nextInt();
+                arr.add(el);
+            }
+            System.out.println("INPUT LIST: ");
+            for (int num : arr)
+                System.out.print(num + "\t");
+            countSort(arr);
+            System.out.println("\nSORTED LIST: ");
+            for (int num : arr)
+                System.out.print(num + "\t");
+        } catch (InputMismatchException e) {
+            System.out.println("INPUT MUST BE IN NUMBERS");
         }
-
-        System.out.println("INPUT LIST: ");
-        for (int num : arr) {
-            System.out.print(num + " ");
-        }
-
-        countingSort(arr, max);
-
-        System.out.println("\nSORTED LIST: ");
-        for (int num : arr) {
-            System.out.print(num + " ");
-        }
-
         scanner.close();
     }
 
-    public static void countingSort(int[] arr, int max) {
-        int[] countArray = new int[max + 1];
+    public static void countSort(ArrayList<Integer> arr) {
+        if (arr == null || arr.isEmpty()) {
+            return;
+        }
+        int max = Integer.MIN_VALUE;
+        int min = Integer.MAX_VALUE;
 
-        for (int num : arr) {
-            countArray[num]++;
+        for (Integer num : arr) {
+            if (num > max) {
+                max = num;
+            }
+            if (num < min) {
+                min = num;
+            }
+        }
+        int[] countArray = new int[max - min + 1];
+        for (Integer num : arr) {
+            countArray[num - min]++;
         }
 
-        int outputIndex = 0;
+        int index = 0;
         for (int i = 0; i < countArray.length; i++) {
             while (countArray[i] > 0) {
-                arr[outputIndex] = i;
-                outputIndex++;
+                arr.set(index++, i + min);
                 countArray[i]--;
             }
         }
     }
+
 }

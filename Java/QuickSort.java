@@ -1,28 +1,36 @@
 import java.util.ArrayList;
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class QuickSort {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        ArrayList<Integer> list = new ArrayList<>();
+        ArrayList<Integer> arr = new ArrayList<>();
 
         System.out.print("Enter the number of elements: ");
-        int size = scanner.nextInt();
-        if(size<=0){
-            System.out.println("Size of list can not be negative or zero");
-            scanner.close();
-            return ;
-        }
-        System.out.println("Enter " + size + " elements:");
-        for (int i = 0; i < size; i++) {
-            int element = scanner.nextInt();
-            list.add(element);
-        }
+        try {
+            int size = scanner.nextInt();
 
-        System.out.println("INPUT LIST: " + list);
-        quickSort(list, 0, list.size() - 1);
-        System.out.println("SORTED LIST: " + list);
-
+            if (size <= 0) {
+                System.out.println("Size of list can not be negative or zero");
+                scanner.close();
+                return;
+            }
+            System.out.println("Enter the elements: ");
+            for (int i = 0; i < size; i++) {
+                int el = scanner.nextInt();
+                arr.add(el);
+            }
+            System.out.println("INPUT LIST: ");
+            for (int num : arr)
+                System.out.print(num + "\t");
+            quickSort(arr, 0, arr.size() - 1);
+            System.out.println("\nSORTED LIST: ");
+            for (int num : arr)
+                System.out.print(num + "\t");
+        } catch (InputMismatchException e) {
+            System.out.println("INPUT MUST BE IN NUMBERS");
+        }
         scanner.close();
     }
 
