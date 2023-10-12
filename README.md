@@ -15,21 +15,22 @@ To get started, simply navigate to the language-specific directories (C++, Java,
 1. [Introduction](#introduction)
 2. [Getting Started](#getting-started)
 3. [Sorting Algorithms](#sorting-algorithms)
-   - [Bubble Sort](#Bubble-sort-➡️)
-   - [Selection Sort](#Selection-sort-➡️)
-   - [Insertion Sort](#Insertion-sort-➡️)
-   - [Merge Sort](#Merge-sort-➡️)
-   - [Quick Sort](#Quick-sort-➡️)
-   - [Count Sort](#Count-sort-➡️)
-   - [Heap Sort](#Heap-sort-➡️)
-   - [Radix Sort](#Radix-sort-➡️)
-   - [Shell Sort](#Shell-sort-➡️)
-   - [Tim Sort](#Tim-sort-➡️)
-   - [Bucket Sort](#Bucket-sort-➡️)
-   - [Cube Sort](#Cube-sort-➡️)
+    - [Bubble Sort](#bubble-sort-➡️)
+    - [Selection Sort](#selection-sort-➡️)
+    - [Insertion Sort](#insertion-sort-➡️)
+    - [Merge Sort](#merge-sort-➡️)
+    - [Quick Sort](#quick-sort-➡️)
+    - [Count Sort](#count-sort-➡️)
+    - [Heap Sort](#heap-sort-➡️)
+    - [Radix Sort](#radix-sort-➡️)
+    - [Shell Sort](#shell-sort-➡️)
+    - [Tim Sort](#tim-sort-➡️)
+    - [Bucket Sort](#bucket-sort-➡️)
+    - [Cube Sort](#cube-sort-➡️)
 4. [Contributing](#contributing)
-5. [Resources](#resources)
-6. [License](#license)
+5. [Disclaimer](#disclaimer)
+6. [Resources](#resources)
+7. [License](#license)
 
 ## Introduction
 
@@ -49,12 +50,12 @@ Bubble sort is a simple sorting algorithm that repeatedly steps through the list
 
 ![Bubble Sort](Assets/BubbleSort.gif)
 
-- [C++ Implementation](C++/bubble_sort.cpp)
-- [Java Implementation](Java/BubbleSort.java)
-- [Python Implementation](Python/bubble_sort.py)
-- [JavaScript Implementation](Javascript/bubble_sort.js)
-- [Article: Understanding Bubble Sort](Articles/bubble_sort.pdf)
-- [Notes: Bubble Sort](Notes/BubbleSort.pdf)
+-   [C++ Implementation](C++/bubble_sort.cpp)
+-   [Java Implementation](Java/BubbleSort.java)
+-   [Python Implementation](Python/bubble_sort.py)
+-   [JavaScript Implementation](Javascript/bubble_sort.js)
+-   [Article: Understanding Bubble Sort](Articles/bubble_sort.pdf)
+-   [Notes: Bubble Sort](Notes/BubbleSort.pdf)
 
 ### Selection Sort [➡️](https://en.wikipedia.org/wiki/Selection_sort)
 
@@ -62,12 +63,12 @@ Selection sort is a straightforward sorting algorithm that divides the input int
 
 ![Selection Sort](Assets/SelectionSort.gif)
 
-- [C++ Implementation](C++/selection_sort.cpp)
-- [Java Implementation](Java/SelectionSort.java)
-- [Python Implementation](Python/selection_sort.py)
-- [JavaScript Implementation](Javascript/selection_sort.js)
-- [Article: Selection Sort Explained](Articles/selection_sort.pdf)
-- [Notes: Selection Sort](Notes/SelectionSort.pdf)
+-   [C++ Implementation](C++/selection_sort.cpp)
+-   [Java Implementation](Java/SelectionSort.java)
+-   [Python Implementation](Python/selection_sort.py)
+-   [JavaScript Implementation](Javascript/selection_sort.js)
+-   [Article: Selection Sort Explained](Articles/selection_sort.pdf)
+-   [Notes: Selection Sort](Notes/SelectionSort.pdf)
 
 ### Insertion Sort [➡️](https://en.wikipedia.org/wiki/Insertion_sort)
 
@@ -75,12 +76,12 @@ Insertion sort is a simple sorting algorithm that builds the final sorted array 
 
 ![Insertion Sort](Assets/InsertionSort.gif)
 
-- [C++ Implementation](C++/insertion_sort.cpp)
-- [Java Implementation](Java/InsertionSort.java)
-- [Python Implementation](Python/insertion_sort.py)
-- [JavaScript Implementation](Javascript/insertion_sort.js)
-- [Article: Mastering Insertion Sort](Articles/insertion_sort.pdf)
-- [Notes: Insertion Sort](Notes/InsertionSort.pdf)
+-   [C++ Implementation](C++/insertion_sort.cpp)
+-   [Java Implementation](Java/InsertionSort.java)
+-   [Python Implementation](Python/insertion_sort.py)
+-   [JavaScript Implementation](Javascript/insertion_sort.js)
+-   [Article: Mastering Insertion Sort](Articles/insertion_sort.pdf)
+-   [Notes: Insertion Sort](Notes/InsertionSort.pdf)
 
 ### Merge Sort [➡️](https://en.wikipedia.org/wiki/Merge_sort)
 
@@ -88,12 +89,12 @@ Merge sort is a divide-and-conquer sorting algorithm that divides an array into 
 
 ![Merge Sort](Assets/MergeSort.gif)
 
-- [C++ Implementation](C++/merge_sort.cpp)
-- [Java Implementation](Java/MergeSort.java)
-- [Python Implementation](Python/merge_sort.py)
-- [JavaScript Implementation](Javascript/merge_sort.js)
-- [Article: Dive into Merge Sort](Articles/merge_sort.pdf)
-- [Notes: Merge Sort](Notes/MergeSort.pdf)
+-   [C++ Implementation](C++/merge_sort.cpp)
+-   [Java Implementation](Java/MergeSort.java)
+-   [Python Implementation](Python/merge_sort.py)
+-   [JavaScript Implementation](Javascript/merge_sort.js)
+-   [Article: Dive into Merge Sort](Articles/merge_sort.pdf)
+-   [Notes: Merge Sort](Notes/MergeSort.pdf)
 
 ### Quick Sort [➡️](https://en.wikipedia.org/wiki/Quicksort)
 
@@ -101,12 +102,12 @@ Quick sort is a fast and efficient divide-and-conquer sorting algorithm that sel
 
 ![Quick Sort](Assets/QuickSort.gif)
 
-- [C++ Implementation](C++/quick_sort.cpp)
-- [Java Implementation](Java/QuickSort.java)
-- [Python Implementation](Python/quick_sort.py)
-- [JavaScript Implementation](Javascript/quick_sort.js)
-- [Article: Quick Sort Demystified](Articles/quick_sort.pdf)
-- [Notes: Quick Sort](Notes/QuickSort.pdf)
+-   [C++ Implementation](C++/quick_sort.cpp)
+-   [Java Implementation](Java/QuickSort.java)
+-   [Python Implementation](Python/quick_sort.py)
+-   [JavaScript Implementation](Javascript/quick_sort.js)
+-   [Article: Quick Sort Demystified](Articles/quick_sort.pdf)
+-   [Notes: Quick Sort](Notes/QuickSort.pdf)
 
 ### Count Sort [➡️](https://en.wikipedia.org/wiki/Counting_sort)
 
@@ -114,12 +115,12 @@ Counting sort is a non-comparative integer sorting algorithm that works by count
 
 ![Count Sort]()
 
-- [C++ Implementation](C++/CountSort.cpp)
-- [Java Implementation](Java/CountSort.java)
-- [Python Implementation](Python/CountSort.py)
-- [JavaScript Implementation](Javascript/CountSort.js)
-- [Article: Quick Sort Demystified](Articles/CountSort.pdf)
-- [Notes: Count Sort](Notes/CountSort.pdf)
+-   [C++ Implementation](C++/CountSort.cpp)
+-   [Java Implementation](Java/CountSort.java)
+-   [Python Implementation](Python/CountSort.py)
+-   [JavaScript Implementation](Javascript/CountSort.js)
+-   [Article: Quick Sort Demystified](Articles/CountSort.pdf)
+-   [Notes: Count Sort](Notes/CountSort.pdf)
 
 ### Heap Sort [➡️](https://en.wikipedia.org/wiki/Heapsort)
 
@@ -127,12 +128,12 @@ Heap sort is a comparison-based sorting algorithm that builds a binary heap data
 
 ![Heap Sort](Assets/HeapSort.gif)
 
-- [C++ Implementation](C++/HeapSort.cpp)
-- [Java Implementation](Java/HeapSort.java)
-- [Python Implementation](Python/HeapSort.py)
-- [JavaScript Implementation](Javascript/heapSort.js)
-- [Article: Understanding Heap Sort](Articles/HeapSort.pdf)
-- [Notes: Heap Sort](Notes/HeapSort.pdf)
+-   [C++ Implementation](C++/HeapSort.cpp)
+-   [Java Implementation](Java/HeapSort.java)
+-   [Python Implementation](Python/HeapSort.py)
+-   [JavaScript Implementation](Javascript/heapSort.js)
+-   [Article: Understanding Heap Sort](Articles/HeapSort.pdf)
+-   [Notes: Heap Sort](Notes/HeapSort.pdf)
 
 ### Radix Sort [➡️](https://en.wikipedia.org/wiki/Radiorgx_sort)
 
@@ -140,12 +141,12 @@ Radix sort is a non-comparative sorting algorithm that works by distributing ele
 
 ![Radix Sort](Assets/RadixSortLSD.gif)
 
-- [C++ Implementation](C++/radix_sort.cpp)
-- [Java Implementation](Java/RadixSort.java)
-- [Python Implementation](Python/radix_sort.py)
-- [JavaScript Implementation](Javascript/radix_sort.js)
-- [Article: Radix Sort Unleashed](Articles/radix_sort.pdf)
-- [Notes: Radix Sort](Notes/RadixSort.pdf)
+-   [C++ Implementation](C++/radix_sort.cpp)
+-   [Java Implementation](Java/RadixSort.java)
+-   [Python Implementation](Python/radix_sort.py)
+-   [JavaScript Implementation](Javascript/radix_sort.js)
+-   [Article: Radix Sort Unleashed](Articles/radix_sort.pdf)
+-   [Notes: Radix Sort](Notes/RadixSort.pdf)
 
 ### Shell Sort [➡️](https://en.wikipedia.org/wiki/Shell_sort)
 
@@ -153,12 +154,12 @@ Shell sort, also known as diminishing increment sort, is a variation of insertio
 
 ![Shell Sort](Assets/ShellSort.gif)
 
-- [C++ Implementation](C++/ShellSort.cpp)
-- [Java Implementation](Java/ShellSort.java)
-- [Python Implementation](Python/ShellSort.py)
-- [JavaScript Implementation](Javascript/ShellSort.js)
-- [Article: Radix Sort Unleashed](Articles/ShellSort.pdf)
-- [Notes: Radix Sort](Notes/ShellSort.pdf)
+-   [C++ Implementation](C++/ShellSort.cpp)
+-   [Java Implementation](Java/ShellSort.java)
+-   [Python Implementation](Python/ShellSort.py)
+-   [JavaScript Implementation](Javascript/ShellSort.js)
+-   [Article: Radix Sort Unleashed](Articles/ShellSort.pdf)
+-   [Notes: Radix Sort](Notes/ShellSort.pdf)
 
 ### Tim Sort [➡️](https://en.wikipedia.org/wiki/Timsort)
 
@@ -166,12 +167,12 @@ Tim sort is a hybrid sorting algorithm derived from merge sort and insertion sor
 
 ![Tim Sort](Assets/TimSort.gif)
 
-- [C++ Implementation](C++/TimSort.cpp)
-- [Java Implementation](Java/TimSort.java)
-- [Python Implementation](Python/TimSort.py)
-- [JavaScript Implementation](Javascript/TimSort.js)
-- [Article: Radix Sort Unleashed](Articles/TimSort.pdf)
-- [Notes: Radix Sort](Notes/TimSort.pdf)
+-   [C++ Implementation](C++/TimSort.cpp)
+-   [Java Implementation](Java/TimSort.java)
+-   [Python Implementation](Python/TimSort.py)
+-   [JavaScript Implementation](Javascript/TimSort.js)
+-   [Article: Radix Sort Unleashed](Articles/TimSort.pdf)
+-   [Notes: Radix Sort](Notes/TimSort.pdf)
 
 ### Bucket Sort [➡️](https://en.wikipedia.org/wiki/Bucket_sort)
 
@@ -179,12 +180,12 @@ Bucket sort is a sorting algorithm that distributes elements into a finite numbe
 
 ![Bucket Sort](Assets/BucketSort.gif)
 
-- [C++ Implementation](C++/BucketSort.cpp)
-- [Java Implementation](Java/BucketSort.java)
-- [Python Implementation](Python/BucketSort.py)
-- [JavaScript Implementation](Javascript/BucketSort.js)
-- [Article: Radix Sort Unleashed](Articles/BucketSort.pdf)
-- [Notes: Radix Sort](Notes/BucketSort.pdf)
+-   [C++ Implementation](C++/BucketSort.cpp)
+-   [Java Implementation](Java/BucketSort.java)
+-   [Python Implementation](Python/BucketSort.py)
+-   [JavaScript Implementation](Javascript/BucketSort.js)
+-   [Article: Radix Sort Unleashed](Articles/BucketSort.pdf)
+-   [Notes: Radix Sort](Notes/BucketSort.pdf)
 
 ### Cube Sort [➡️](https://en.wikipedia.org/wiki/Cube_sort)
 
@@ -192,36 +193,59 @@ Cube sort, also known as block sort, is an efficient in-place sorting algorithm 
 
 ![Cube Sort](Assets/CubeSort.gif)
 
-- [C++ Implementation](C++/CubeSort.cpp)
-- [Java Implementation](Java/CubeSort.java)
-- [Python Implementation](Python/CubeSort.py)
-- [JavaScript Implementation](Javascript/CubeSort.js)
-- [Article: Radix Sort Unleashed](Articles/CubeSort.pdf)
-- [Notes: Radix Sort](Notes/CubeSort.pdf)
+-   [C++ Implementation](C++/CubeSort.cpp)
+-   [Java Implementation](Java/CubeSort.java)
+-   [Python Implementation](Python/CubeSort.py)
+-   [JavaScript Implementation](Javascript/CubeSort.js)
+-   [Article: Radix Sort Unleashed](Articles/CubeSort.pdf)
+-   [Notes: Radix Sort](Notes/CubeSort.pdf)
 
 ## Articles
 
 The following articles are included in this repository:
 
-- [A Beginner's Guide to Sorting Algorithms](https://www.tutorialspoint.com/sorting_algorithms/sorting_algorithms_tutorial.htm)
-- [The Best Sorting Algorithm for Your Needs](https://www.toptal.com/algorithms/sorting-algorithms)
-- [How to Implement a Sorting Algorithm in Your Own Code](https://www.geeksforgeeks.org/implementing-sorting-algorithms-in-python/)
-- [Sorting Algorithms in Depth](https://www.coursera.org/specializations/sorting-algorithms)
+-   [A Beginner's Guide to Sorting Algorithms](https://www.tutorialspoint.com/sorting_algorithms/sorting_algorithms_tutorial.htm)
+-   [The Best Sorting Algorithm for Your Needs](https://www.toptal.com/algorithms/sorting-algorithms)
+-   [How to Implement a Sorting Algorithm in Your Own Code](https://www.geeksforgeeks.org/implementing-sorting-algorithms-in-python/)
+-   [Sorting Algorithms in Depth](https://www.coursera.org/specializations/sorting-algorithms)
 
 ## Resources
 
 In addition to the code and articles in this repository, here are some external resources to further your understanding of sorting algorithms:
 
-- [Sorting Algorithm Visualizer](https://visualgo.net/en/sorting)
-- [Sorting Algorithms: A Visual Guide](https://www.toptal.com/developers/sorting-algorithms)
-- [Coursera: Algorithms and Data Structures](https://www.coursera.org/specializations/algorithms)
-- [The Sound of Sorting Algorithm cheat sheet](https://panthema.net/2013/sound-of-sorting/)
-- [Data Structure Visualization](https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html)
-- [A list of sorting algorithms in different programming languages](https://en.wikipedia.org/wiki/Sorting_algorithm#Implementations_in_programming_languages)
+-   [Sorting Algorithm Visualizer](https://visualgo.net/en/sorting)
+-   [Sorting Algorithms: A Visual Guide](https://www.toptal.com/developers/sorting-algorithms)
+-   [Coursera: Algorithms and Data Structures](https://www.coursera.org/specializations/algorithms)
+-   [The Sound of Sorting Algorithm cheat sheet](https://panthema.net/2013/sound-of-sorting/)
+-   [Data Structure Visualization](https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html)
+-   [A list of sorting algorithms in different programming languages](https://en.wikipedia.org/wiki/Sorting_algorithm#Implementations_in_programming_languages)
 
 ## Contributing
 
 Contributions are always welcome! If you have a new sorting algorithm implementation, an enhancement to an existing one, or an insightful article to share, please feel free to submit a pull request. Be sure to follow the [contribution guidelines](CONTRIBUTING.md) for a smooth collaboration process.
+
+## Disclaimer
+
+**Educational Purpose Notice:**
+
+This repository includes sorting algorithm visualizations from various YouTube videos to enhance your understanding of the algorithms. We would like to acknowledge and express our gratitude to the creators of these YouTube videos for their insightful content. You can find the credits to these videos in the [Credits](#credits) section below.
+
+The inclusion of these visualizations is for educational purposes only and not intended to infringe upon any copyright or claim ownership of the original content.
+
+Should you have any concerns or questions regarding the use of these materials, please do not hesitate to contact us. We are committed to upholding the highest standards of intellectual property and respectful content usage.
+
+## Credits
+
+1. [Bubble Sort](https://www.youtube.com/watch?v=Cq7SMsQBEUw): Created by **Timo Bingmann**, [May 20, 2013]
+2. [Selection Sort](https://www.youtube.com/watch?v=92BfuxHn2XE): Created by **Timo Bingmann**, [May 20, 2013]
+3. [Insertion Sort](https://www.youtube.com/watch?v=8oJS1BMKE64): Created by **Timo Bingmann**, [May 20, 2013]
+4. [Merge Sort](https://www.youtube.com/watch?v=ZRPoEKHXTJg): Created by **Timo Bingmann**, [May 20, 2013]
+5. [Quick Sort](https://www.youtube.com/watch?v=8hEyhs3OV1w): Created by **Timo Bingmann**, [May 20, 2013]
+6. [Heap Sort](https://www.youtube.com/watch?v=_bkow6IykGM): Created by **Timo Bingmann**, [May 20, 2013]
+7. [Radix Sort](https://www.youtube.com/watch?v=LyRWppObda4): Created by **Timo Bingmann**, [May 20, 2013]
+8. [Shell Sort](https://www.youtube.com/watch?v=n4sk-SzGvZA): Created by **Timo Bingmann**, [May 20, 2013]
+9. [Tim Sort](https://www.youtube.com/watch?v=NVIjHj-lrT4): Created by **Timo Bingmann**, [May 20, 2013]
+10. [ Visualization of 24 Sorting Algorithms In 2 Minutes ](https://www.youtube.com/watch?v=BeoCbJPuvSE): Created by **Viktor Bohush**, [April 06, 2016]
 
 ## License
 
