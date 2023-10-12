@@ -1,6 +1,6 @@
 # MASTERING THE SORTING ALGORITHMS
 
-![Sorting Algorithms](Assets/24Sort.gif)
+![Sorting Algorithms](assets/24Sort.gif)
 
 Welcome to the Sorting Algorithms repository! 🎉
 
@@ -38,7 +38,7 @@ Sorting algorithms are essential tools in a programmer's toolkit. They allow us 
 
 ## Big-O Notation
 
-![Big-O Notation](Assets/TimeComplexities.png)
+![Big-O Notation](assets/TimeComplexities.png)
 
 **Big O Notation** is a mathematical way to analyze and express the efficiency of algorithms. It quantifies how the performance of an algorithm scales with the size of its input. In simple terms, it provides an upper bound on the worst-case time or space complexity of an algorithm, helping programmers and engineers make informed choices when designing and selecting algorithms for various tasks.
 
@@ -48,7 +48,7 @@ Sorting algorithms are essential tools in a programmer's toolkit. They allow us 
 
 Bubble sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order, gradually moving the larger elements towards the end. It's easy to understand but not efficient for large datasets.
 
-![Bubble Sort](Assets/BubbleSort.gif)
+![Bubble Sort](assets/BubbleSort.gif)
 
 -   [C++ Implementation](C++/bubble_sort.cpp)
 -   [Java Implementation](Java/BubbleSort.java)
@@ -61,7 +61,7 @@ Bubble sort is a simple sorting algorithm that repeatedly steps through the list
 
 Selection sort is a straightforward sorting algorithm that divides the input into a sorted and an unsorted region, iteratively selecting the smallest element from the unsorted portion and moving it to the sorted section. While simple to implement, it's not the most efficient choice for large datasets.
 
-![Selection Sort](Assets/SelectionSort.gif)
+![Selection Sort](assets/SelectionSort.gif)
 
 -   [C++ Implementation](C++/selection_sort.cpp)
 -   [Java Implementation](Java/SelectionSort.java)
@@ -74,7 +74,7 @@ Selection sort is a straightforward sorting algorithm that divides the input int
 
 Insertion sort is a simple sorting algorithm that builds the final sorted array one item at a time, inserting each element into its correct position. It's efficient for small datasets and partially sorted lists.
 
-![Insertion Sort](Assets/InsertionSort.gif)
+![Insertion Sort](assets/InsertionSort.gif)
 
 -   [C++ Implementation](C++/insertion_sort.cpp)
 -   [Java Implementation](Java/InsertionSort.java)
@@ -87,7 +87,7 @@ Insertion sort is a simple sorting algorithm that builds the final sorted array 
 
 Merge sort is a divide-and-conquer sorting algorithm that divides an array into smaller subarrays, recursively sorts them, and then merges the sorted subarrays to produce a sorted result. It offers a stable and efficient way to sort large datasets.
 
-![Merge Sort](Assets/MergeSort.gif)
+![Merge Sort](assets/MergeSort.gif)
 
 -   [C++ Implementation](C++/merge_sort.cpp)
 -   [Java Implementation](Java/MergeSort.java)
@@ -100,7 +100,7 @@ Merge sort is a divide-and-conquer sorting algorithm that divides an array into 
 
 Quick sort is a fast and efficient divide-and-conquer sorting algorithm that selects a "pivot" element and partitions the array into two subarrays, one with elements smaller than the pivot and the other with elements greater. It repeatedly applies this process recursively, making it one of the fastest sorting algorithms for most scenarios.
 
-![Quick Sort](Assets/QuickSort.gif)
+![Quick Sort](assets/QuickSort.gif)
 
 -   [C++ Implementation](C++/quick_sort.cpp)
 -   [Java Implementation](Java/QuickSort.java)
@@ -126,7 +126,7 @@ Counting sort is a non-comparative integer sorting algorithm that works by count
 
 Heap sort is a comparison-based sorting algorithm that builds a binary heap data structure, repeatedly extracts the maximum element from it (for ascending order), and places it in the sorted portion of the array. It offers a stable and efficient way to sort large datasets.
 
-![Heap Sort](Assets/HeapSort.gif)
+![Heap Sort](assets/HeapSort.gif)
 
 -   [C++ Implementation](C++/HeapSort.cpp)
 -   [Java Implementation](Java/HeapSort.java)
@@ -139,7 +139,7 @@ Heap sort is a comparison-based sorting algorithm that builds a binary heap data
 
 Radix sort is a non-comparative sorting algorithm that works by distributing elements into buckets based on individual digits or characters in their representation, then repeatedly collecting and concatenating the buckets. It's particularly efficient for sorting strings and integers with fixed-length representations.
 
-![Radix Sort](Assets/RadixSortLSD.gif)
+![Radix Sort](assets/RadixSortLSD.gif)
 
 -   [C++ Implementation](C++/radix_sort.cpp)
 -   [Java Implementation](Java/RadixSort.java)
@@ -152,7 +152,7 @@ Radix sort is a non-comparative sorting algorithm that works by distributing ele
 
 Shell sort, also known as diminishing increment sort, is a variation of insertion sort that divides the input into smaller subarrays and sorts them individually using insertion sort with progressively larger gap values. It strikes a balance between simplicity and efficiency, making it suitable for medium-sized datasets.
 
-![Shell Sort](Assets/ShellSort.gif)
+![Shell Sort](assets/ShellSort.gif)
 
 -   [C++ Implementation](C++/ShellSort.cpp)
 -   [Java Implementation](Java/ShellSort.java)
@@ -165,7 +165,7 @@ Shell sort, also known as diminishing increment sort, is a variation of insertio
 
 Tim sort is a hybrid sorting algorithm derived from merge sort and insertion sort. It's designed for practical efficiency and is the default sorting algorithm in many programming languages, including Python and Java, due to its adaptability and performance.
 
-![Tim Sort](Assets/TimSort.gif)
+![Tim Sort](assets/TimSort.gif)
 
 -   [C++ Implementation](C++/TimSort.cpp)
 -   [Java Implementation](Java/TimSort.java)
@@ -178,7 +178,7 @@ Tim sort is a hybrid sorting algorithm derived from merge sort and insertion sor
 
 Bucket sort is a sorting algorithm that distributes elements into a finite number of buckets, then individually sorts each bucket, often using another sorting algorithm. It's particularly efficient for sorting uniformly distributed data, like integers or floating-point numbers.
 
-![Bucket Sort](Assets/BucketSort.gif)
+![Bucket Sort](assets/BucketSort.gif)
 
 -   [C++ Implementation](C++/BucketSort.cpp)
 -   [Java Implementation](Java/BucketSort.java)
@@ -191,7 +191,7 @@ Bucket sort is a sorting algorithm that distributes elements into a finite numbe
 
 Cube sort, also known as block sort, is an efficient in-place sorting algorithm that divides the input into blocks, sorts the blocks using another sorting algorithm, and merges them. It's known for its stability and is well-suited for sorting large datasets.
 
-![Cube Sort](Assets/CubeSort.gif)
+![Cube Sort](assets/CubeSort.gif)
 
 -   [C++ Implementation](C++/CubeSort.cpp)
 -   [Java Implementation](Java/CubeSort.java)
