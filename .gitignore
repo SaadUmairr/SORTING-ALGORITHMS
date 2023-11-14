@@ -2,6 +2,7 @@
 *.exe
 *.txt
 *.class
+*.md
 
 #Specific CPP files to ignore
 tempCodeRunnerFile.cpp
