@@ -200,6 +200,19 @@ Cube sort, also known as block sort, is an efficient in-place sorting algorithm 
 -   [Article: Radix Sort Unleashed](Articles/CubeSort.pdf)
 -   [Notes: Radix Sort](Notes/CubeSort.pdf)
 
+### Tree Sort [➡️](https://en.wikipedia.org/wiki/Tree_sort)
+
+Tree Sort is a sorting algorithm that builds a binary search tree from the elements of an array and then performs an in-order traversal to obtain the sorted order. It leverages the structure of the binary search tree to achieve a time complexity of O(n log n) on average.
+
+![Tree Sort](assets/TreeSort.gif)
+
+-   [C++ Implementation](C++/TreeSort.cpp)
+-   [Java Implementation](Java/TreeSort.java)
+-   [Python Implementation](Python/TreeSort.py)
+-   [JavaScript Implementation](Javascript/TreeSort.js)
+-   [Article: Radix Sort Unleashed](Articles/TreeSort.pdf)
+-   [Notes: Radix Sort](Notes/TreeSort.pdf)
+
 ## Articles
 
 The following articles are included in this repository:
